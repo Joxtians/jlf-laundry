@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - JLF & Co. Laundry</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="auth-page">
+    <div class="login-container">
+        <img src="assets/logo.jpg" alt="JLF & Co. Laundry Logo" class="auth-logo">
+
+        <h2>Masuk ke Akun Anda</h2>
+        
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Nama Pengguna / Email</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Kata Sandi</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit" class="btn primary-btn full-width">Sign In</button>
+            
+            <div class="auth-links">
+                <a href="#">Lupa Kata Sandi?</a>
+                <span>|</span>
+                <a href="register.html">Daftar Akun Baru</a>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    /* Penyesuaian Navigasi untuk mobile */
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        width: 100%;
+    }
+
+    /* Penyesuaian Hero Section */
+    #hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
+    }
+
+    .hero-image {
+        margin-top: 30px;
+    }
+}
